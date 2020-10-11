@@ -1,0 +1,129 @@
+*{
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100vw ;
+}
+
+header{
+    background-color: red;
+    height: 10vh;
+    width: 100vw;
+    flex-direction: row;
+    display:flex;
+}
+
+.logo{
+    height: 100%;
+    width: 20%;
+    margin: 0 0%;
+    text-align: center;
+}
+
+.nav{
+    height: 100%;
+    width: 80%;
+    margin: 0 0%;
+    display: flex;
+}
+
+.pestaña{
+    background-color: grey;
+    height: 100%;
+    width: 20%;
+    margin: 0 2%;
+    flex-direction: row;
+}
+
+main{
+    background-color: orange;
+    height: 130vh;
+    width: 100%;
+    flex-direction: column;
+    display: flex;
+}
+
+.section1{
+    height: 40%;
+    width: 100%;
+    background-color: green;
+    margin: 1% 1%;
+}
+
+.section2{
+    background-color: blue;
+    height: 60%;
+    width: 100%;
+    margin: 1% 1%;
+    padding: 1% 5%;
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.pestaña2{
+    background-color: grey;
+    height:20%;
+    width:45%;
+    margin: 1% 1%;
+}
+
+footer{
+    background-color: green;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    display: flex;
+
+}
+
+@media screen and (max-width: 758px){
+    body{
+        height: 310vh ;
+    }
+
+    header{
+        height: 25vh;
+    }
+
+    .logo{
+        background-color: white;
+    }
+
+    .pestaña{
+        height:0%;
+        width:0%;
+    }
+
+    main{
+        height: 330vh;
+        padding: 1% 0%;
+    }
+    .section1{
+        height: 50%;
+    }
+
+    .section2{
+        background-color: blue;
+        height: 50%;
+        margin: 0% 0%;
+        padding: 0% 0%;
+    }
+
+    .pestaña2{
+        background-color: red;
+        height:11%;
+        width:100%;
+    }
+
+    footer{
+        height: 25vh;
+    }
+}

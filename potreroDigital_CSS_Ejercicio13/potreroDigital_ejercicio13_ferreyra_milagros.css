@@ -1,0 +1,25 @@
+/*- los títulos de las secciones 1 y 3 sean de color rojo y fondo azul.
+-los párrafos tengan tamaño de fuente igual a 16px.
+-los títulos de las secciones 2 y 4 sean de color verde.
+-el subtítulo de la sección 2 debe tener fuente italica y el resto helvetica.*/
+
+p{
+ font-size: 16px;
+}
+
+h2{
+ font-family: helvetica;
+}
+
+.titulo1_rojo_fondo_azul{
+ color: red;
+ background-color: blue;
+}
+
+.titulo2_verde{
+ color:green;
+}
+
+#subtitulo2{
+ font-family: italic;
+}

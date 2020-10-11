@@ -1,0 +1,55 @@
+
+.tamaño_computadora{
+    border: black 1px solid;
+    background-color: red;
+    width: 300px;
+    height: 20vw;
+    margin: 4px 3%;
+    padding: 0px;
+}
+.tamaño_laptop{
+    border: black 1px dotted;
+    background-color: green;
+    width: 20%;
+    height: 100px;
+    margin: 10px 6%;
+    padding: 9px;
+}
+.tamaño_celular{
+    border:red 1px solid;
+    background-color: green;
+    width: 20%;
+    height: 100px;
+    margin: 0% 0%;
+    padding: 0px 9px 0px 0px;
+}
+
+/*
+Tenemos una nueva tarea. Consiste en hacer una division (un div) en:
+
+Tamaño Computadora:
+-Borde negro y continuo (sólido)
+-Color de fondo rojo
+-Ancho=300px
+-Altura= 20 puntos de pantalla
+-margen vertical: 4px
+-Margen horizontal: 3%
+-padding: 0
+
+Tamaño laptop:
+-Borde negro y punteado
+-Color de fondo verde
+-Ancho=20%
+-Altura= 100px
+-margen vertical: 10px
+-Margen horizontal: 6%
+-padding total: 9px
+
+Tamaño celular:
+-Borde rojo oscucro y solido
+-Color de fondo verde
+-Ancho=20%
+-Altura= 100px
+-margen total:0
+-padding derecho: 9px el resto=0
+*/
